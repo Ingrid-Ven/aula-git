@@ -8,3 +8,26 @@ git config --global user.name "Ingrid Venancio"
 
 git config --global user.email "ingrid.venancioo@gmail.com"
 ```
+
+### Explicandos os comandos do Git
+Dentro da pasta que criamos no terminal utilizamos o comando Git init para inicializar. Só utilizamos esse comando 1 vez.
+```bash
+git init
+```
+Após inicializar o processo, abrimos o code com o comando e criamos uma pasta onde vamos realizar o projeto
+```bash
+code ./comandos.md
+```
+Após criar a pasta no code, voltamos ao terminal e utilizamos o status para ver a situação do repositório. Se estiver vermelho  precisa adicionar arquivo, se estiver verde estão prontos para salvar (commit)
+```bash
+git status
+```
+Para adicionar todos os arquivos modificados para serem versionados utilizamos o add
+```bash
+git add .
+```
+
+Para criar uma versão de tudo que foi modificado até aquele momento utilizamos o commit. <br>
+```bash
+git commit -m  "Porque estou salvando estas alterações"
+````
