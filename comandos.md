@@ -38,3 +38,7 @@ Git push envia os commits do pc para o Github
 git push
 ```
 
+Git pull baixa todas as atualizações que o repositório tem no Github e não está no seu pc. 
+```bash
+git pull
+```
