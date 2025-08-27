@@ -28,6 +28,13 @@ git add .
 ```
 
 Para criar uma versão de tudo que foi modificado até aquele momento utilizamos o commit. <br>
+**IMPORTANTE** no -m temos que colocar uma mensagem do porque estamos salvando.
 ```bash
 git commit -m  "Porque estou salvando estas alterações"
-````
+```
+
+Git push envia os commits do pc para o Github
+```bash
+git push
+```
+
